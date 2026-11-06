@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "V0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -539,7 +539,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -661,29 +661,17 @@
     "top_level_sheets": [
       {
         "filename": "left pcb.kicad_sch",
-        "name": "left pcb",
+        "name": "Main board",
         "uuid": "534e9e1e-dc9d-4892-b381-9852ff380fc1"
       }
     ],
-    "used_designators": "#PWR1-76,C1-5,CAP1-3,CDD1-6,C_VXXA1-3,D1-162,J1,SW1-54,U1-62",
+    "used_designators": "#FLG1-4,#PWR1-80,A1-7,C1-5,CA1-3,CAP1-3,CBOOT1,CBUS1-2,CDD1-7,CFB1,COLED1,COUT1,CRST1-2,CX1-2,C_VDDA2-3,C_VXXA1-3,D1-162,ENC1,FB1,J1-7,L1,MCU1,P1,R1-4,RBOOT1-5,RDBG1-2,RENC1-8,RENCA1,RENCB1-2,RFB1-4,RI2C1-4,RX1,SW1-56,SWBOOT1,SWRST1-2,TMR1-54,U1-64,Y1",
     "variants": []
   },
   "sheets": [
     [
       "534e9e1e-dc9d-4892-b381-9852ff380fc1",
-      "left pcb"
-    ],
-    [
-      "de242894-0ca0-45cf-843c-44b1b283b174",
-      "LED matrix"
-    ],
-    [
-      "ccddeb11-1b71-44f2-bdba-772298d3cc9c",
-      "Key matrix"
-    ],
-    [
-      "3a202164-d1d8-409a-996d-982cd5899dc1",
-      "Analog matrix"
+      "Main board"
     ]
   ],
   "text_variables": {},
