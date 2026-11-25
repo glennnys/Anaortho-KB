@@ -13550,16 +13550,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 212.09) (xy 101.6 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "427bd555-0015-455f-b1a2-de3eb31b8f7f")
-	)
-	(wire
-		(pts
 			(xy 336.55 229.87) (xy 397.51 229.87)
 		)
 		(stroke
@@ -16070,7 +16060,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 212.09) (xy 62.23 212.09)
+			(xy 57.15 212.09) (xy 101.6 212.09)
 		)
 		(stroke
 			(width 0)
@@ -29059,85 +29049,6 @@
 			(project "keyboard"
 				(path "/534e9e1e-dc9d-4892-b381-9852ff380fc1"
 					(reference "CDD4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 212.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "16652b1f-80a6-4013-8952-867ccbb66d8a")
-		(property "Reference" "RX1"
-			(at 66.04 214.376 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 66.04 212.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 213.868 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c6ca1339-f52e-4ea0-91f0-3bb4fc5821b4")
-		)
-		(pin "1"
-			(uuid "6241f42e-8a58-413d-b65a-8efad8760bed")
-		)
-		(instances
-			(project "keyboard"
-				(path "/534e9e1e-dc9d-4892-b381-9852ff380fc1"
-					(reference "RX1")
 					(unit 1)
 				)
 			)
